@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h1>LOGIN</h1>
+        <input type="text" id="email" placeholder="enter email" autocomplete="off">
+        <input type="password" id="password" placeholder="enter password" autocomplete="off">
+        <button id="sign_in">LOGIN</button>
+        <div class="input">
+            <button id="google-login-btn" class="google-button">
+                <i class="fab fb-google">Login With Google</i>
+            </button>
+        </div>
+    </div>
+    <!-- my blog area admin-->
+    <div class="my_blog">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5502/index.html#" href="http://127.0.0.1:5502/logged.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5502/blog.html" href="http://127.0.0.1:5502/logged.html">Blog</a></li>
+                    <li><a href="#" id="Logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="notify"></div>
+        <div class="container main">
+            <div class="main_content">
+                <h1 class="heading" id="my posts">MY POSTS</h1>
+                <!-- Post Form -->
+                <div class="post_form">
+                    <label><h2 style="color: rgb(0, 26, 255);">TITLE</h2></label>
+                        <input type="text" id="title" placeholder="Enter Your Title">
+                            <label><h2 style="color: rgb(0, 26, 255);">POST</h2></label>
+                        <textarea name="" id="post_content" cols="50" rows="30" placeholder="Write Your Blog Here"></textarea>
+                    <button id="post_btn" class="post_btn">Post Now</button>
+                    <button id="update_btn" class="update_btn">Update Post</button>
+                </div>
+                  <!-- Table -->
+                  <div class="my_content">
+                   
+                    <table></table>
+                </div>
+            </div>
+        </div>
+      
+        <footer>
+            <div class="footer_text">
+                <p>All Right Reserved For Shamim Akhtar</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>

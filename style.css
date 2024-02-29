@@ -1,0 +1,361 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+body{
+    .protest-riot-regular {
+        font-family: "Protest Riot", sans-serif;
+        counter-reset: section;
+        
+      }
+      
+}
+
+/* header{
+    background: #111;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+} */
+
+/* Login */
+
+.login{
+    margin: 0 auto;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+}
+
+*.login{
+    background-color: #c0b9b9 ;
+    border-radius: 360px;
+    border-color: 1px solid #f60505;
+    box-shadow:  rgb(0, 0, 0) 2px 4px 6px;
+}
+
+.login h1{
+    text-align: end;
+    padding: 5px;
+}
+
+.login input{
+    display: flex;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border: 3px solid #73737c;
+    outline: none;
+    width: 60%;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login button{
+    width: 15%;
+    padding: 5px 10px;
+    background: rgb(64, 0, 255);
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: aliceblue;
+    text-align: center;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+
+ .login button:hover{
+    background: transparent;
+    color: #0000ff;
+    font-size: 13px;
+    font-weight: bold;
+} 
+
+/* google button */
+
+ .input button{
+    display: flex;
+    margin: 10px;
+    padding: 0px 2px;
+    border: 3px solid #ffffff;
+    background: #ee0303;
+    outline: none;
+    width: 90%;
+    height: 70%;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.input .login button{
+    
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* Header */
+
+header{
+    background: #02a5c6;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: rgb(0, 0, 0) 2px 4px 6px;
+    border-radius: 4px;
+    
+}
+
+header ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+
+.notify{
+    background: rgb(128, 58, 0);
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+}
+/* Psot */
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* footer */
+
+footer{
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    background: tomato;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    justify-content: center;
+    box-shadow: rgb(0, 0, 0) 2px 4px 6px;
+    
+
+}
+
+.login{
+    width: 50%;
+    margin: 180px auto;
+}
+
+.main_content .post_form{
+    width: 500px 0px;
+    margin: 30px 0px;
+    box-shadow: rgba(red, green, blue, 0.16) 0px 1px 4px;
+    padding-left: 100px 30px;
+    
+} 
+
+.main_content .post_content, textarea{
+    width: 200%;
+    height: 25vh;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.main_content .post_form input , textarea{
+    width: 200%;
+    border: 1px solid #ee0303;
+    padding: 5px 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.main_content .post_form button{
+    width: 50%;
+    background: #018301;
+    color: #fff;
+    padding: 5px 0px;
+    border: 2px solid #f6f5f9;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.main_content .heading{
+    padding-left: 250px;
+    color: #f60606;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.main_content .post_form button:hover{
+    background: transparent;
+    color: #f60606;
+    
+}
+
+.my_content table tr button.delete{
+    background: rgb(245, 2, 2);
+    border-radius: 3px;
+    color: #fff;
+    width: 70px;
+    height: 3vh;
+    cursor: pointer;
+}
+
+.my_content table tr button.update{
+    background: rgb(83, 2, 245);
+    border-radius: 3px;
+    color: #fff;
+    width: 70px;
+    height: 3vh;
+    cursor: pointer;
+}
+
+.my_content table tr button:hover{
+    background: transparent;
+    color: #111;
+
+}
+
+
+/* Update_btn */
+.my_blog{
+    display: none;
+}
+
+.update_btn{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+/* post_form */
+
+.main_content{
+    display: grid;
+    grid-template-columns: 30% 0px;
+    background-color: #b1bac1;
+    
+}
+
+.post_form{
+    width: 300px;
+    /* box-shadow: rgb(7, 7, 7) 1px 3px 4px; */
+
+} 
+
+
+
+/* Notify */
+
+.notify{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(251, 26, 6);
+    color: #fff;
+    margin-top: 70px;
+    border-radius: 40px;
+}
+
+/* my_content */
+
+.my_content{
+    width: 60%;
+    padding: 90px 50px;
+    margin-left: 100px;
+    
+}
+
+.my_content table{
+    width: 500%;
+    height: 18vh;
+    padding-left: 10px;
+    margin-left: 160px;
+    box-shadow: rgb(0, 0, 0) 2px 3px 6px;
+    background-color: #bdbbba;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+
+.my_content table tr{
+    margin: 30px 0;
+    width: 100px;
+}
+
+/* id */
+
+.postNumber{
+    height: 20px;
+    display: inline-block;
+    width: 20px;
+}
+
+.postNumber::before {
+    counter-increment: section;
+    content: counter(section);
+  }
+
+  /* main */
+
+.post{
+    margin: 20px 0;
+    box-shadow: rgb(0, 0, 0) 2px 4px 6px;
+    padding: 20px;
+    background-color: #bdbbba;
+    font-size: 20px;
+    border-radius: 10px;
+
+  
+    
+}
+.my_content h2{
+    margin: 20px opx;
+    padding: 50px;
+}
+
+
+
+
+
